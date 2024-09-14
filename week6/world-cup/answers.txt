@@ -1,0 +1,26 @@
+Times:
+
+10 simulations: 0m0.027s
+100 simulations: 0m0.029s
+1000 simulations: 0m0.036s
+10000 simulations: 0m0.104s
+100000 simulations: 0m0.821s
+1000000 simulations: 0m7.838s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+As the number of simulations ran increased, the results yielded from the simulation increased not only in accuracy but in numbers as well.
+Considering the placement of the top five teams, the prediction with N = 10, as well as N = 100 proved incorrect,
+as the listed rankings were: 1. Belgium, 2. Brazil, 3. Switzerland, 4. Argentina, 5. Spain,
+and 1. Belgium, 2. Brazil, 3. Portugal, 4. Argentina, 5. Switzerland respectively.
+This is opposed to every prediction with N = 1000 +, which yielded the top 5 winners as: 1. Belgium, 2.Brazil, 3. Portugal, 4. Spain, 5. Switzerland
+
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+As examined in the preceding answer, the list of the top five winners did not change after N was set to 1000.
+So after testing the results with N = 1000, when testing that N = 10 000 yielded practically the same results for the top 12 teams (same order of winners, with an almost negligible difference in chance of winning),
+I would have called the predictions "good enough".

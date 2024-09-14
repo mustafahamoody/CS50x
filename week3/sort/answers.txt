@@ -1,0 +1,31 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+
+When timed for speed againsed sort 2 and sort 3 on sorted50000.txt (a large, ordered set),
+sort 1 came out ahead (marginally faster than sort 2 and considerably faster than sort 3).
+This indicates that it has the smalest Ω, leading to bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?:
+
+When timed for speed againsed sort 1 and sort 3 on random50000.txt and reversed50000.txt
+(both large, unordered sets), sort2 finished substantially faster.
+This indicates that it has the smalest O out of the 3 options, which points to merge sort.
+Also when tested on random50000.txt, reversed50000.txt and sorted50000.txt, its run times across all three sets barley changes
+which shows that sort 2's O and Ω are most likely equal, a charicteristic only selection and merge sort has out of the three,
+and the fact thaty it preforms much faster then sort 3, again leads to sort 2 being merge sort.
+
+sort3 uses: Selection sort
+
+How do you know?:
+
+When timed for speed againsed sort 2 and sort 3 on sorted50000.txt (a large, ordered set),
+sort3 finished substantially slower than the rest. This indicates that it has the largest Ω out of the three algorithms,
+leading to selection sort.
+Also when tested on random50000.txt, reversed50000.txt and sorted50000.txt, its run times across all three sets barley changes
+which shows that sort 3's O and Ω are most likely equal a charicteristic only slelection and merge sort has out of the three,
+and the fact that it preforms much slower than sort 2, again leads to sort 3 being selection sort.
+
+
