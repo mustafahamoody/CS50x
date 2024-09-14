@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-start">Name</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">TOTAL</th>
+                <th class="text-end close"><b><i>CLOSE POS</i></b></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in portfolio %}
+                <tr>
+                    <td class="text-start">{{ item.name }}</td>
+                    <td class="text-start">{{ item.name }}</td>
+                    <td class="text-end">{{ item.shares }}</td>
+                    <td class="text-end">{{ lookup(item.name)["price"] | usd }}</td>
+                    <td class="text-end">{{ (item.shares * lookup(item.name)["price"]) | usd }}</td>
+                    <form action="/sell" method="post">
+                        <input type="hidden" name="symbol" value = {{ item.name }}></input>
+                        <td class="text-end"><button class="btn btn-primary warning" type="submit" name="shares" value={{ item.shares }}>CLOSE</button></td>
+                    </form>
+                </tr>
+            {% endfor %}
+            <tfoot>
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="4">CASH</td>
+                    <td class="border-0 text-end">{{ cash | usd }}</td>
+                </tr>
+                <tr>
+                    <td class="border-0 fw-bold text-end" colspan="4">TOTAL</td>
+                    <td class="border-0 w-bold text-end">{{ total | usd }}</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+{% endblock %}

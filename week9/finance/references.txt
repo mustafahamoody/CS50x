@@ -1,0 +1,11 @@
+References
+B, I. (2019, May 16). pset8 finance check50 fails on "checking that "56.00" is in page" even though it is in the page. CS50 Stack Exchange. Retrieved August 17, 2023, from https://cs50.stackexchange.com/questions/32655/pset8-finance-check50-fails-on-checking-that-56-00-is-in-page-even-though-it
+Datatypes In SQLite. (2022, April 27). SQLite. Retrieved August 17, 2023, from https://www.sqlite.org/draft/datatype3.html
+400 Bad Request - HTTP | MDN. (2023, April 10). MDN Web Docs. Retrieved August 17, 2023, from https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+How to get current date and time in Python? (With Examples). (n.d.). Programiz. Retrieved August 17, 2023, from https://www.programiz.com/python-programming/datetime/current-datetime
+How to Sum Values of a Column in SQL? (n.d.). LearnSQL. Retrieved August 17, 2023, from https://learnsql.com/cookbook/how-to-sum-values-of-a-column-in-sql/
+HTML button value Attribute. (n.d.). W3Schools. Retrieved August 17, 2023, from https://www.w3schools.com/tags/att_button_value.asp
+HTML input type="hidden". (n.d.). W3Schools. Retrieved August 17, 2023, from https://www.w3schools.com/tags/att_input_type_hidden.asp
+John32323, & user1614572. (2013, February 22). Call a python function from jinja2. Stack Overflow. Retrieved August 17, 2023, from https://stackoverflow.com/questions/6036082/call-a-python-function-from-jinja2
+SQL COUNT(), AVG() and SUM() Functions. (n.d.). W3Schools. Retrieved August 17, 2023, from https://www.w3schools.com/sql/sql_count_avg_sum.asp
+SQL - NOT EQUAL. (n.d.). Tutorialspoint. Retrieved August 17, 2023, from https://www.tutorialspoint.com/sql/sql-not-equal.htm

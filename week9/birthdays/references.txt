@@ -1,0 +1,4 @@
+References
+Gaurav, S. (2022, May 4). Convert String to int in Python. Scaler. Retrieved August 16, 2023, from https://www.scaler.com/topics/convert-string-to-int-python/
+HTML input min Attribute. (n.d.). W3Schools. Retrieved August 16, 2023, from https://www.w3schools.com/tags/att_input_min.asp
+What is Python typeof Function? (2023, July 31). Simplilearn.com. Retrieved August 16, 2023, from https://www.simplilearn.com/tutorials/python-tutorial/python-typeof-function#

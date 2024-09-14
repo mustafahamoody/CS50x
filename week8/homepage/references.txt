@@ -1,0 +1,9 @@
+References
+CSS Fonts. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/css/css_font.asp
+CSS Layout - Horizontal & Vertical Align. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/css/css_align.asp
+CSS opacity property. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/cssref/css3_pr_opacity.php#
+CSS Text. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/css/css_text.asp
+How To Display an Element on Hover. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/howto/howto_css_display_element_hover.asp
+HTML script src Attribute. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/tags/att_script_src.asp
+HTML YouTube Videos. (n.d.). W3Schools. Retrieved August 13, 2023, from https://www.w3schools.com/html/html_youtube.asp
+Lae Aye, N. M. L. W., & Pauranik, Y. (2014, September 4). Embed YouTube video - Refused to display in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'. Stack Overflow. Retrieved August 13, 2023, from https://stackoverflow.com/questions/25661182/embed-youtube-video-refused-to-display-in-a-frame-because-it-set-x-frame-opti
